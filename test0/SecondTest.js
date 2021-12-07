@@ -18,7 +18,7 @@ fixture("First Test Suite")
         await t
         .click(iniciarSessionButton)    
         .typeText(username,"nelson.lorca@iconstruye.com")    
-        .typeText(password,"aBgpoKsj") 
+        .typeText(password,"-----") 
         .click(iniciarSession2Button)
         .click(menuButton)   
         .click(menuCotizaciones) 
