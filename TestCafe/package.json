@@ -1,0 +1,11 @@
+{
+  "name": "testcafe",
+  "version": "1.0.0",
+  "description": "clases de testcafe\t",
+  "main": "index.js",
+  "scripts": {
+    "Pruebas": "testcafe chrome test0/ThirtdTest.js"
+  },
+  "author": "Gonzo",
+  "license": "ISC"
+}
