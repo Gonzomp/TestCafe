@@ -24,7 +24,7 @@ fixture("Assertions")
         .expect(developername.value).eql('','input is empty')
         .typeText(developername,nombre)
         .expect(developername.value).eql(nombre,'input is not empty')
-        console.log(developername.value);
+        console.log(developername.textContent);
         await t
         .click(submitButton)
         .expect(labelMessage.textContent).contains('Thank you')
